@@ -1,0 +1,37 @@
+﻿[
+    {
+        "id":  "graduation-campus",
+        "source":  "Pexels photo 267885, graduation/campus reference",
+        "imageUrl":  "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1600",
+        "localPath":  "/assets/campaign/web/graduation-campus.jpg",
+        "license":  "Pexels License / free-to-use stock reference; verify final production use before publication"
+    },
+    {
+        "id":  "campus-students",
+        "source":  "Pexels photo 1438072, university students reference",
+        "imageUrl":  "https://images.pexels.com/photos/1438072/pexels-photo-1438072.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1600",
+        "localPath":  "/assets/campaign/web/campus-students.jpg",
+        "license":  "Pexels License / free-to-use stock reference; verify final production use before publication"
+    },
+    {
+        "id":  "retail-store",
+        "source":  "Pexels photo 1884584, retail clothes reference",
+        "imageUrl":  "https://images.pexels.com/photos/1884584/pexels-photo-1884584.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1600",
+        "localPath":  "/assets/campaign/web/retail-store.jpg",
+        "license":  "Pexels License / free-to-use stock reference; verify final production use before publication"
+    },
+    {
+        "id":  "shopping-mall",
+        "source":  "Pexels photo 3769747, mall/friends reference",
+        "imageUrl":  "https://images.pexels.com/photos/3769747/pexels-photo-3769747.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1600",
+        "localPath":  "/assets/campaign/web/shopping-mall.jpg",
+        "license":  "Pexels License / free-to-use stock reference; verify final production use before publication"
+    },
+    {
+        "id":  "music-festival",
+        "source":  "Pexels photo 1190297, music festival reference",
+        "imageUrl":  "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1600",
+        "localPath":  "/assets/campaign/web/music-festival.jpg",
+        "license":  "Pexels License / free-to-use stock reference; verify final production use before publication"
+    }
+]
