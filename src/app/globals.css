@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --ink: #172033;
+  --muted: #6b7280;
+  --line: rgba(23, 32, 51, 0.1);
+  --surface: rgba(255, 255, 255, 0.76);
+  --pink: #ff7fbd;
+  --blue: #87d6ff;
+  --lilac: #b99cff;
+  --cream: #fff8ed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+section {
+  scroll-margin-top: 88px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: clip;
+  background: linear-gradient(145deg, #fffafc 0%, #f8fcff 48%, #fff8ef 100%);
+  color: var(--ink);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.ai-action {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(110deg, #ff6fb4, #9d7cff 55%, #61bfe9);
+  box-shadow: 0 12px 28px rgba(255, 111, 180, 0.24);
+}
+
+.ai-action::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+  transform: translateX(-120%);
+  background: linear-gradient(100deg, transparent 20%, rgba(255, 255, 255, 0.34), transparent 72%);
+  animation: ai-shine 2.8s ease-in-out infinite;
+}
+
+.ai-action > * {
+  position: relative;
+  z-index: 1;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.glass {
+  border: 1px solid rgba(255, 255, 255, 0.74);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.84), rgba(255, 255, 255, 0.54));
+  box-shadow: 0 18px 60px rgba(64, 89, 132, 0.14);
+  backdrop-filter: blur(18px);
+}
+
+.soft-border {
+  border: 1px solid rgba(23, 32, 51, 0.1);
+}
+
+.section-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.stage-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.64) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.64) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.scrollbar-none {
+  max-width: 100%;
+  contain: paint;
+  scrollbar-width: none;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes ai-shine {
+  0%,
+  48% {
+    transform: translateX(-120%);
+  }
+  75%,
+  100% {
+    transform: translateX(120%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
